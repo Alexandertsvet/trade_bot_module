@@ -2,6 +2,7 @@
 name = "trade_bor"
 version = "0.0.0"
 edition = "2024"
+publish.workspace = true
 
 [dependencies]
 data_recipient = { path = "../data_recipient" }
