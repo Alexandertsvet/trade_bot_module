@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "trade_bor",
+    "data_recipient",
+]
+resolver = "3"
