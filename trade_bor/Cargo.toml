@@ -1,7 +1,8 @@
 [package]
 name = "trade_bor"
-version = "0.1.0"
+version = "0.0.1"
 edition = "2024"
+publish.workspace = true
 
 [dependencies]
 data_recipient = { path = "../data_recipient" }

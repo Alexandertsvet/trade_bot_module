@@ -4,3 +4,6 @@ members = [
     "data_recipient",
 ]
 resolver = "3"
+
+[workspace.package]
+publish = false
