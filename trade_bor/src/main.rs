@@ -2,7 +2,7 @@ use config;
 use data_recipient::data_recipient_algopack;
 use std;
 
-#[tokio::main] // Этот макрос запускает асинхронный движок Tokio
+#[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
     println!("=== Запуск торгового робота ===");
     let version = env!("CARGO_PKG_VERSION");
