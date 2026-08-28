@@ -6,3 +6,5 @@ publish.workspace = true
 
 [dependencies]
 data_recipient = { path = "../data_recipient" }
+config = { path = "../config" } 
+tokio = { version = "1", features = ["full"] }
