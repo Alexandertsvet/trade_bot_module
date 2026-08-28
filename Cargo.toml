@@ -2,6 +2,7 @@
 members = [
     "trade_bor",
     "data_recipient",
+    "config",
 ]
 resolver = "3"
 
